@@ -4,7 +4,7 @@
 
 int main(int argc, char *argv[]) {
     if (argc < 3 || argc > 7) {
-        printf("Usage: %s <input_file> <output_file> [--start [[00h]00m]00s] [--end [[00h]00m]00s]\n", argv[0]);
+        printf("Usage: %s <input_file> <output_file> [--start [[hh:]mm:]ss] [--end [[hh:]mm:]ss]\n", argv[0]);
         return 1;
     }
 
